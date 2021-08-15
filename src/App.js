@@ -13,7 +13,7 @@ const App = () => {
   const onClick = async () => {
     try{
       const response = await axios.get(
-        'https://newsapi.org/v2/top-headlines?country=kr&apiKey=1e0908864cf9458ea0b78ac180d09958'
+        'https://newsapi.org/v2/top-headlines?country=kr&apiKey=d'
       )
       setData(response.data)
     }catch (e){
