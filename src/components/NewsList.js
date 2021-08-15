@@ -43,7 +43,7 @@ const NewsList = ({category}) => {
        
 
           const response = await axios.get(
-            'https://newsapi.org/v2/top-headlines?country=kr&apiKey=1e0908864cf9458ea0b78ac180d09958',
+            'https://newsapi.org/v2/top-headlines?country=kr&apiKey=d',
           );
           setArticles(response.data.articles);
         } catch (e) {
